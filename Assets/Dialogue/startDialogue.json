@@ -1,0 +1,55 @@
+{
+  "dialogues":[
+    {
+    "dialogueId":"intro1",
+    "text":"After years of work, my creation is ready...",
+    "finish":false,
+    "nextId":"intro2",
+    "actor":"player"
+    },
+    {
+      "dialogueId":"intro2",
+      "text":"Metro City will finally know my power!",
+      "finish":false,
+      "nextId":"intro3",
+      "actor":"player"
+    },
+    {
+      "dialogueId":"intro3",
+      "text":"RELEASE THE ROBOT!",
+      "finish":true,
+      "nextId":"",
+      "actor":"player"
+    },
+    {
+      "dialogueId":"movementTutorial1",
+      "text":"Behold! Onwards to Metro City!",
+      "finish":false,
+      "nextId":"movementTutorial2",
+      "actor":"player"
+    },
+    {
+      "dialogueId":"movementTutorial2",
+      "text":"Use A and D to move, W and S to climb up and down your Robot.\n Use Space to Jump",
+      "finish":false,
+      "nextId":"movementTutorial3",
+      "actor":"help"
+    },
+    {
+      "dialogueId":"movementTutorial3",
+      "text":"Click on debris to attach it to your robot. It will protect it from attacks!",
+      "finish":false,
+      "nextId":"movementTutorial4",
+      "actor":"help"
+    },
+    {
+      "dialogueId":"movementTutorial4",
+      "text":"I must do this to win!",
+      "finish":true,
+      "nextId":"",
+      "actor":"actor"
+    }
+]
+  
+
+}
