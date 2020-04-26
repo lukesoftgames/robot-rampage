@@ -16,4 +16,5 @@ public class MovePlayer : MonoBehaviour
       LeanTween.moveX(gameObject, transform.position.x + 5f, 3f).setOnComplete(GameEvents.current.PlayerOutside);
 
     }
+
 }
